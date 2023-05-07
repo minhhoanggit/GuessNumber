@@ -1,0 +1,94 @@
+body {
+    padding: 0px;
+    margin: 0px;
+
+  }
+h1, p{
+    margin:0px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.content{
+    background-color: #3b0764;
+    height:100vh;
+    color: #fff;
+}
+.content2{
+    background-color: #c026d3;
+    height:100vh;
+}
+
+.top{
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.btn{
+    background-color: #d946ef;
+    padding: 8px 32px;
+    font-size: 24px;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    
+}
+.secretNumber{
+    align-items: center;
+}
+.boxNumber{
+    background: #c084fc;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top:40px;
+}
+.abc{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+
+}
+.actionGuess{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.action-left, .action-right{
+    width: 50%;
+    margin: auto;
+}
+.action-right{
+    font-size: 24px;
+    line-height: 1.5;
+}
+.action-left{
+    text-align: center;
+}
+.input-guess{
+    height: 40px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    
+}
+.btn-check{
+    width: 90px;
+    font-size: 28px;
+    background-color: #c084fc;
+    border-radius: 3px;
+    text-align: center;
+    margin: 12px auto;
+    color: #fff;
+    padding: 4px;
+    border: none;
+}
